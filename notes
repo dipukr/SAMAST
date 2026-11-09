@@ -1,0 +1,7 @@
+A shallow copy duplicates an object's top-level structure while copying references to any nested objects or arrays. If you change a nested object in the copy, it also changes the original.
+A deep copy recursively duplicates the entire object hierarchy, creating a completely independent copy of every nested object and array. Changes to the deep copy never affect the original.
+Shallow copy has Side Effects when mutating nested objects.
+Shallow copy is faster and uses less memory.
+===========================================
+Side-effects
+Performance

@@ -83,9 +83,118 @@ Dining Philosophers
 Volatile
 Synchronized
 Starvation
+Indexing
+Clustering
+Denormalization
+Normalization
+Read replicas
+Leader–Follower replication
+Multi-leader replication
+Quorum
+Consensus
+CAP theorem
+BASE
+ACID
+Eventual consistency
+Strong consistency
+Snapshot isolation
+MVCC (Multi-Version Concurrency Control)
+Two-phase commit (2PC)
+Three-phase commit (3PC)
+Write-ahead logging (WAL)
+Checkpointing
+Compaction
+Rebalancing
+Resharding
+Data locality
+Hot partition
+Split-brain
+Failover
+High availability (HA)
+Horizontal scaling
+Vertical scaling
+Load balancing
+Connection pooling
+Caching
+Materialized views
+Secondary indexes
+Composite index
+Covering index
+Bloom filter
+LSM tree
+B-tree
+Query planner
+Cost-based optimizer
+Deadlock
+Lock escalation
+Optimistic locking
+Pessimistic locking
+Dirty read
+Phantom read
+Read skew
+Write skew
+Data skew
+Backpressure
+Circuit breaker
+Throttling
+Rate limiting
+CDC (Change Data Capture)
+Logical replication
+Physical replication
+Geo-replication
+Federation
+Data lake
+Data warehouse
+Columnar storage
+Row-based storage
+Time-series partitioning
+Hash partitioning
+Range partitioning
+Consistent hashing
+Data migration
+Schema evolution
+Schema registry
+Idempotency
 Monitoring Tools (jstack, jconsole, VisualVM, Java Flight Recorder and Micrometer metrics)
 Memory Leaks (Concurreny, JVM)
-
-
+5 performance related topics that you should brush up before a  Java interview:
+- Garbage Collection tuning & monitoring
+- JVM memory management (heap, stack, metaspace)
+- Efficient use of streams & collections
+- Concurrency & thread pool optimization
+- Profiling & monitoring tools (JFR, JConsole, VisualVM)
+Producer: Service that sends messages
+Queue: Temporary storage for messages
+Message Broker: System that manages queues and routes messages
+Consumer: Service that receives and processes messages
+===========================================================================================
+Abstraction vs Encapsulation
+Stateless vs Statefull
+Idempotency vs Deduplication
+Replication vs Sharding
+Batch Processing vs Stream Processing
+Synchronous vs Asynchronous Architecture
+========================================
+Authentication (Basic, Session, JWT, OAuth)
+===========================================
+Debug Slow APIs (DB Queries, Network Latency, Thread Pool, Garbage Collection)
+==============================================================================
+p99 latency
+Connection pooling
+Backpressure
+Idempotency keys
+Cache Stampede
+Reading query plans (EXPLAIN ANALYZE)
+Write amplification
+Consistent hashing
+Change data capture
+The outbox pattern
+Tail latency amplification
+==========================
+Correctness
+Performance
+Security
+Maintainability
+Failure Scenarios
 
 

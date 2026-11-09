@@ -30,3 +30,10 @@ What happens when the DB is unavailable?
 Design a distributed job scheduling system that can execute millions of cron jobs reliably across multiple regions.
 How Do You Migrate 10TB of Data with Zero Downtime?
 What if the Load Balancer itself goes down?
+What is the difference between Event-driven architecture and Message Queue architecture?
+How to invalidate a JWT token?
+Why a database query is slow?
+Why an API starts failing under load?
+What happens between Browser → DNS → Server → Database → Response?
+How to debug production issue calmly?
+What is network partition in a distributed system? 
