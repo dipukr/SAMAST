@@ -20,7 +20,6 @@ export PATH=/opt/maven/bin:$PATH
 export PATH=/opt/kafka/bin:$PATH
 alias cls=clear
 alias gis="git status"
-alias stow="cd /home/kumar/collection"
 alias save='pushd .'
 alias goto=popd
 alias open=xdg-open
