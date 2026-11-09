@@ -6,6 +6,10 @@ int add_binary(int a, int b)
 	int c = 0;
 	int f = 1;
 	int v = 0;
+	console.log(1000);
+	const arr = [10, 20, 30];
+	arr.length = 1;
+	console.log(arr.length);
 	while (a > 0 || b > 0) {
 		int r = (a > 0 ? a % 10 : 0) + (b > 0 ? b % 10 : 0);
 		printf("r: %d\n", r);
