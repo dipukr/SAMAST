@@ -4,7 +4,8 @@ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -Darchet
 sqlite3 cookies.sqlite "SELECT host, name, value FROM moz_cookies;"
 alter user 'root'@'localhost' identified by 'P@55Word';
 python3.12 -m ensurepip:python3.12 -m pip list
-git remote add origin url.git:git push -uf origin master
+git remote add origin url.git
+git push -uf origin master
 g++ -c add.cpp:ar crf ..\lib\libadd.a add.o:g++ -o main main.cpp -L. -ladd
 g++ -c -O3 -std=c++11 -I"../include"
 jar cfe Main.jar Main *.class

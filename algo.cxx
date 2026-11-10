@@ -49,10 +49,21 @@ void increment(std::list<int> &a, std::list<int> &r)
 		r.push_back(sum % 10);
 		i++;
 	}
-	if (carry)
-		r.push_back(1);
+	if (carry) r.push_back(1);
 	r.reverse();
 	return r;
+}
+
+void plus_one(std::vector<int> &num)
+{
+	for (int i = num.size() - 1; i >= 0; i--) {
+		if (num[i] < 9) {
+			num[i]++;
+			return num;
+		}
+		num[i] = 0;
+	}
+	num.insert(num.begin(), 1);
 }
 
 void add(std::list<int> &a, std::list<int> &b, std::list<int> &r)
