@@ -1,7 +1,64 @@
-A shallow copy duplicates an object's top-level structure while copying references to any nested objects or arrays. If you change a nested object in the copy, it also changes the original.
-A deep copy recursively duplicates the entire object hierarchy, creating a completely independent copy of every nested object and array. Changes to the deep copy never affect the original.
+Referential integrity = making sure that a reference from one table always points to a valid record in another table.
+Software architecture refers to the high-level structure of a software system.
+System Design is about designing the entire system — not just software — to meet scalability, reliability and performance requirements.
+Heap memory is logically contiguous but physically non-contiguous.
+Heap is a region of a process’s address space used for dynamic memory allocation.
+Audit log and activity Log are both used to track actions within systems, but they serve different purposes.
+Objects do not create other objects on which they relay to do their work, instead they get the objects that they need from an outside world.
+Abstraction is separation of interface from implementation so that we can have one interface and many implementations or usages.
+Abstract data type: what operations can be performed on this data, ignoring how those operations will be performed.
+High level modules should not depend on low level modules rather both should depends on abstraction.
+Polymorphism is the ability of a variable, function or object to take on multiple forms.
+Interface defines what a class does but not how it does it.
+Advantages of generics: compile-time type safety, avoids class cast exceptions and eliminate the need for most type conversions.
+Try-catch promotes separation of concern principles by avoiding mixing of business logic code and error handling code.
+Volatile ensures that all the threads sees the same value of a variale at any given time.
+There is one-to-one mapping between JVM platform threads and OS threads.
+Cached shared data causes a thread not to notice that data has been changed by the another thread.
+Returned value is wrapped into the Future object, which is returned immediately.
+Method get blocks invoking thread until timeout or when the value within the Future object becomes available.
+Method wait puts a thread into waiting state against specific monitor.
+Any number of threads can be waiting against the same monitor.
+Keyword synchronized enforces exclusive access to the block of code.
+Creating platform threads is expensive both in terms of time and space.
+Thread does not have to block on anthing for the final result of the pipeline to be relevant.
+Use IntStream instead of Stream<Integer> when possible.
+Interrupts are co-operation mechanism for one thread to tell other thread to stop its execution.
+Calling wait forces the current thread to wait until some other thread invokes notify or notifyAll on the same object.
+Adding an index speeds up reads, but slows down writes.
+=================================================================================================================================================
+A good API doesn’t just return data, handles rate-limiting, caching, auth, validation, logging, versioning, and graceful failure.
+Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+Cache invalidation is the process of removing or updating outdated data in a system's cache when the original source of truth changes.
+Performance is not just faster code, performance is architecture caching, async IO, efficient DB queries, rate limits, batching, pagination.
+You just don't optimize a function rather you optimize the flow.
+Sidecar: Multiple services need to share common logging, monitoring, and configuration without duplicating code.
+EDA: Systems communicate by publishing and reacting to events instead of calling each other directly, improving decoupling and scalability.
+Saga Pattern: Manages distributed transactions by breaking them into steps with compensating actions instead of using a single ACID transaction.
+CQRS: Separates write operations (commands) from read operations (queries) to optimize scalability and performance independently.
+Event Sourcing: Stores state as a sequence of immutable events rather than current values, allowing replay, auditing, and rebuilding state.
+Circuit Breaker Pattern: Prevents cascading failures by stopping calls to an unhealthy service until it recovers.
+Distributed Tracing: Tracks a request as it flows through multiple services to debug latency, failures, and bottlenecks.
+CAP Theorem: In a distributed system, you can only guarantee two of three: Consistency, Availability, and Partition Tolerance.
+Idempotency: Ensures repeated requests produce the same result, critical for retries in unreliable networks.
+Data Sharding: Splits data across multiple databases or nodes to scale horizontally and reduce load on a single instance.
+API Gateway: Acts as a single entry point for clients, handling routing, auth, rate limiting, and aggregation.
+Favour composition over inheritance; use inheritance only when you need both code reuse and subtype polymorphism.
+Completable future is a non-blocking asynchronous API that helps execute task asynchronously and process results using callback-style method.
+Asynchronous excution means: A task runs separately in the background without blocking the main thread.
+A shallow copy duplicates an object's top-level structure while copying references to any nested objects or arrays.
+When you change a nested object in the copy, it also changes the original.
+A deep copy recursively duplicates the entire object hierarchy, creating a completely independent copy of every nested object and array.
+Changes to the deep copy never affect the original.
 Shallow copy has Side Effects when mutating nested objects.
 Shallow copy is faster and uses less memory.
-===========================================
-Side-effects
-Performance
+Performance Tuning (Concurreny, Query, Design, Architecture)
+Debug Slow APIs (DB Queries, Network Latency, Thread Pool, Garbage Collection)
+Thread Safety achieved through confinement, immutability, synchronization, or thread-safe libraries.
+Shared resources are data or objects accessed by multiple threads, such as memory, files or network connections.
+Producer: Service that sends messages.
+Queue: Temporary storage for messages.
+Message Broker: System that manages queues and routes messages.
+Consumer: Service that receives and processes messages.
+The URL is normally the host, the URI is the resource on that host.
+

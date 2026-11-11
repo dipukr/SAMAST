@@ -1,0 +1,35 @@
+Easy-to-add new feature without changing existing.
+Easy-to-change one part without breaking other part.
+====================================================
+Loosely-coupled
+Side-effects
+Performance
+Robust
+Modular
+Flexible
+Testable
+Pluggable
+Extensible
+Maintainable
+Loosely-coupled
+Easy-to Read
+Easy-to Understand
+Easy-to Debug
+Easy-to Unit-test
+Seperation-of-concerns
+======================
+Scalable
+Robust
+Secure
+Available
+Fault-tolerant
+Resilient
+Performant
+Correctness
+Performance
+Security
+Maintainability
+Failure Scenarios
+==========================
+Partitioning = Scalability
+Replication = Fault-tolerance

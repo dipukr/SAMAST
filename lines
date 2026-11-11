@@ -1,47 +1,33 @@
-Referential integrity = making sure that a reference from one table always points to a valid record in another table.
-Software architecture refers to the high-level structure of a software system.
-System Design is about designing the entire system — not just software — to meet scalability, reliability and performance requirements.
-Heap memory is logically contiguous but physically non-contiguous.
-Heap is a region of a process’s address space used for dynamic memory allocation.
-Audit log and activity Log are both used to track actions within systems, but they serve different purposes.
-Objects do not create other objects on which they relay to do their work, instead they get the objects that they need from an outside world.
-Abstraction is separation of interface from implementation so that we can have one interface and many implementations or usages.
-Abstract data type: what operations can be performed on this data, ignoring how those operations will be performed.
-High level modules should not depend on low level modules rather both should depends on abstraction.
-Polymorphism is the ability of a variable, function or object to take on multiple forms.
-Interface defines what a class does but not how it does it.
-Advantages of generics: compile-time type safety, avoids class cast exceptions and eliminate the need for most type conversions.
-Try-catch promotes separation of concern principles by avoiding mixing of business logic code and error handling code.
-Volatile ensures that all the threads sees the same value of a variale at any given time.
-There is one-to-one mapping between JVM platform threads and OS threads.
-Cached shared data causes a thread not to notice that data has been changed by the another thread.
-Returned value is wrapped into the Future object, which is returned immediately.
-Method get blocks invoking thread until timeout or when the value within the Future object becomes available.
-Method wait puts a thread into waiting state against specific monitor.
-Any number of threads can be waiting against the same monitor.
-Keyword synchronized enforces exclusive access to the block of code.
-Creating platform threads is expensive both in terms of time and space.
-Thread does not have to block on anthing for the final result of the pipeline to be relevant.
-Use IntStream instead of Stream<Integer> when possible.
-Interrupts are co-operation mechanism for one thread to tell other thread to stop its execution.
-Calling wait forces the current thread to wait until some other thread invokes notify or notifyAll on the same object.
-=======================================================================================================================
-A good API doesn’t just return data, handles rate-limiting, caching, auth, validation, logging, versioning, and graceful failure.
-Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
-Cache invalidation is the process of removing or updating outdated data in a system's cache when the original source of truth changes.
-Performance is not just faster code, performance is architecture caching, async IO, efficient DB queries, rate limits, batching, pagination.
-You just don't optimize a function rather you optimize the flow.
-Sidecar: Multiple services need to share common logging, monitoring, and configuration without duplicating code.
-EDA: Systems communicate by publishing and reacting to events instead of calling each other directly, improving decoupling and scalability.
-Saga Pattern: Manages distributed transactions by breaking them into steps with compensating actions instead of using a single ACID transaction.
-CQRS: Separates write operations (commands) from read operations (queries) to optimize scalability and performance independently.
-Event Sourcing: Stores state as a sequence of immutable events rather than current values, allowing replay, auditing, and rebuilding state.
-Circuit Breaker Pattern: Prevents cascading failures by stopping calls to an unhealthy service until it recovers.
-Distributed Tracing: Tracks a request as it flows through multiple services to debug latency, failures, and bottlenecks.
-CAP Theorem: In a distributed system, you can only guarantee two of three: Consistency, Availability, and Partition Tolerance.
-Idempotency: Ensures repeated requests produce the same result, critical for retries in unreliable networks.
-Data Sharding: Splits data across multiple databases or nodes to scale horizontally and reduce load on a single instance.
-API Gateway: Acts as a single entry point for clients, handling routing, auth, rate limiting, and aggregation.
-Favour composition over inheritance; use inheritance only when you need both code reuse and subtype polymorphism.
-Completable future is a non-blocking asynchronous API that helps execute task asynchronously and process results using callback-style method.
-Asynchronous excution means: A task runs separately in the background without blocking the main thread.
+Equanimity.
+Some people age, some rot.
+Be an empty page untouched by words.
+Choose risk over regret every time.
+You have nothing to lose because nothing is yours.
+When you can't be controlled then you will be hated.
+When feeling low imagine about vastness of space and time.
+There are decades when nothing happens and months where decades happens.
+We live as if we were never going to die and die as though we have never lived.
+As you start to walk on the way, the way appears.
+A sense of humour is the only divine quality of man.
+Good women are attracted to your body, great women are attracted to your mind.
+Maturity comes when a man learns to become content with solitude.
+I know of no better life purpose than to perish in attempting the great and the impossible.
+What you are is God's gift to you, what you become is your gift to God.
+Only a few know, how much one must know to know how little one knows.
+Man suffers only because he takes seriously what the gods made for fun.
+The greatest pleasure in life is doing what people say you cannot do.
+The dumber you are, the smarter you think you are and vice versa.
+People who need therapy does not come to therapist, their victims do.
+When people lose their morality they become obsessed with legality.
+If the universe is truly closed, where would lost information even go?
+Civilization survives on normies doing the predictable thing (WKs) so a tiny minority can take existential risk.
+The disrespect at the end was so loud that the memories held no value.
+When you fear something, learn as much about it as you can. Knowledge conquers fear.
+I am the wisest man alive, for I know one thing, and that is that I know nothing.
+Great minds discuss ideas, average minds discuss events, small minds discuss people.
+Only a few know, how much one must know, to know how little one knows.
+The less people know, the more they think they know.
+Haters will broadcast your failures, but whisper your success.
+The downfall of the great has always been the joy of the mediocre.
+The further a society drifts from truth, the more it will hate those who speak it.
+Every situation is a win when the goal is to merely experience.

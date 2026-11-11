@@ -1,50 +1,62 @@
-Above is the link to chatgpt answer about Idempotency.
-Add everything in the chat into Idempotency.html as-it-is.
-Implement algorithms from scratch.
-=============================================================================
-Explain in details with practical code examples about Visitor design pattern.
-==================================================
-Programming Languages: Java, Python, C, SQL, T-SQL
-Computer Science: Data Stuructures and Algorithms, Concurreny, Compiler Design
-Backend Frameworks: Spring Boot, Hibernate JPA, FastAPI, LangChain, LangGraph
-Software Architecture: Microservices, Event-Driven, CQRS, SAGA, Outbox,  
-Software Design: Object-oriented Design, Data-oriented Design, Design Patterns, Design Principles
-Software Architecture: Microservices Architecture and Patterns, Event-Driven Architecture, MVC, N-Tier
-System Design: Distributed Systems, Scalable Systems, Database Design, API Design, Performance Optimization
-Message Brokers: Apache Kafka and RabbitMQ
-Tools: Linux, Git, SVN, Docker, Maven, Jenkins, BitBucket
-Batch Processing
-Monitoring vs Observability
-Performance Tuning (Concurreny, Query, Design, Architecture)
-Thread Safety achieved through confinement, immutability, synchronization, or thread-safe libraries.
-Shared resources are data or objects accessed by multiple threads, such as memory, files or network connections.
-When multiple threads modify a shared resource at once, the outcome is non-deterministic.
-Concurrent access must be explicitly synchronized in a multi-threaded environment.
-Read-read sharing is safe, but read-write and write-write access needs protection.
-======================================================================================================================================================
-Directed-acyclic graph, Interference graph, Liveness analysis, Graph coloring, Register allocation, Control flow graph, Three-address code
-Monotonic Stack, Matrix Traversal, Consistent Hashing, Count-Min Sketch, Bloom Filters, Merkle Tree, Quadtree, Trie, LSM Trees, B-Trees 
-Compression, Trie, R-Tree, B-Tree, SkipList, SSTable, QuadTree, LSM Tree, Suffix Tree, Hash Table, Chord, Kademelia, Inverted Index
-=====================================================================================================================================================
-JSON Database to learn serialization and storage
-File Search Tool to learn recursion and indexing
-Search Autocomplete using prefix trees (Trie)
-Diff Tool to compare files line-by-line
-Annotation Processor
-===========================================
-Logical Replication vs Physical Replication
+SQL vs NoSQL
+Abstract Class vs Interface
+Stream Processing vs Batch Processing
 Asynchronous vs Synchronous Processing
-Batch Processing vs Stream Processing 
 Stateless vs Stateful Design
-============================
+Monitoring vs Observability
+Multithreading vs Multiprocessing
+Synchronous vs Asynchronous Architecture
+Synchronous vs Asynchronous Processing
+Abstraction vs Encapsulation
+Idempotency vs Deduplication
+Replication vs Sharding
+Logical Replication vs Physical Replication
+==========================================================================================
+Monitoring Tools (jstack, jconsole, VisualVM, Java Flight Recorder and Micrometer metrics)
+Memory Leaks (Concurreny, JVM)
+Performance Tuning (Concurreny, Query, Design, Architecture)
+Authentication (Basic, Session, JWT, OAuth)
 Dependency inversion
 Dependency injection
 Inversion of control
-=========================
-Event-Driven Architecture
-Aggregator
-Bulkhead
-=========================
+Observability
+Alterting System
+Consensus Algorithms (Paxos, Raft)
+Consistency Models
+Timeouts
+Retries
+Idempotency
+p99 latency
+Connection pooling
+Backpressure
+Idempotency keys
+Cache Stampede
+Reading query plans (EXPLAIN ANALYZE)
+Write amplification
+Consistent hashing
+Change data capture
+The outbox pattern
+Tail latency amplification
+Transaction Isolation
+Distributed Data Processing
+Distributed Locks (Zookeeper, Redis)
+====================================
+Maze-generation Algorithm
+Cache-locality
+Distributed-lock
+Distributed transaction
+Transaction isolation
+Optimistic locking
+Instruction reordering
+Real-world application of fork-join pool
+Leader-election algorithm (Bully and Ring)
+Consistent Hashing
+Circuit-breaker Algorithms
+Anycast Routing
+Architectural Models
+Microservices Communication
+Asynchronous Processing
+Asynchronous Programming
 Content Delivery Networks
 Forward Proxy
 Reverse Proxy
@@ -155,46 +167,238 @@ Data migration
 Schema evolution
 Schema registry
 Idempotency
-Monitoring Tools (jstack, jconsole, VisualVM, Java Flight Recorder and Micrometer metrics)
-Memory Leaks (Concurreny, JVM)
-5 performance related topics that you should brush up before a  Java interview:
-- Garbage Collection tuning & monitoring
-- JVM memory management (heap, stack, metaspace)
-- Efficient use of streams & collections
-- Concurrency & thread pool optimization
-- Profiling & monitoring tools (JFR, JConsole, VisualVM)
-Producer: Service that sends messages
-Queue: Temporary storage for messages
-Message Broker: System that manages queues and routes messages
-Consumer: Service that receives and processes messages
-===========================================================================================
-Abstraction vs Encapsulation
-Stateless vs Statefull
-Idempotency vs Deduplication
-Replication vs Sharding
-Batch Processing vs Stream Processing
-Synchronous vs Asynchronous Architecture
-========================================
-Authentication (Basic, Session, JWT, OAuth)
-===========================================
-Debug Slow APIs (DB Queries, Network Latency, Thread Pool, Garbage Collection)
-==============================================================================
-p99 latency
-Connection pooling
-Backpressure
-Idempotency keys
-Cache Stampede
-Reading query plans (EXPLAIN ANALYZE)
-Write amplification
-Consistent hashing
-Change data capture
-The outbox pattern
-Tail latency amplification
 ==========================
-Correctness
-Performance
-Security
-Maintainability
-Failure Scenarios
-
-
+Microservices Architecture
+Event-Driven Architecture
+Architecture
+Aggregator
+Bulkhead
+=======================================
+Directed-acyclic graph
+Interference graph
+Liveness analysis
+Graph coloring
+Register allocation
+Control flow graph
+Three-address code
+Monotonic Stack
+Matrix Traversal
+Consistent Hashing
+Count-Min Sketch
+Bloom Filters
+Merkle Tree
+Quadtree
+Trie
+LSM Trees
+B+Trees 
+Compression
+R-Tree
+B-Tree
+SkipList
+SSTable
+QuadTree
+LSM Tree
+Suffix Tree
+Hash Table
+Chord
+Kademelia
+Inverted Index
+==============
+SQL Injection
+XSS
+CSRF
+CORS
+SSRF
+IDOR
+Path Traversal
+Mass Assignment
+Clickjacking
+Content Security Policy
+Security Headers
+Input Validation
+Server-Side Authorization
+Row-Level Security
+Least Privilege
+RBAC
+Secrets Management
+.env in .gitignore
+API Key Rotation
+Secret Scanning
+Hashing vs Encryption
+Password Salting
+bcrypt & Argon2
+JWT Expiry
+Refresh Tokens
+OAuth 2.0
+OpenID Connect
+Session Fixation
+MFA
+Brute Force Protection
+Account Enumeration
+Timing Attacks
+File Upload Validation
+Webhook Signature Verification
+TLS Certificate Expiry
+HSTS
+Encryption at Rest
+Dependency Vulnerabilities
+Supply Chain Attacks
+Threat Modeling
+Indexes
+EXPLAIN ANALYZE
+N+1 Queries
+Full Table Scans
+Connection Pooling
+Database Migrations
+Down Migrations
+Transactions
+ACID
+Isolation Levels
+Deadlocks
+Optimistic Locking
+Pessimistic Locking
+Normalization
+Denormalization
+Foreign Keys
+Unique Constraints
+Cascading Deletes
+Soft Deletes
+UUIDs vs Auto-Increment
+Cursor-Based Pagination
+Full-Text Search
+Read Replicas
+Replication Lag
+Sharding
+Partitioning
+Hot Partitions
+Postgres VACUUM
+Materialized Views
+Backups
+Testing Your Restores
+Point-in-Time Recovery
+Change Data Capture
+Outbox Pattern
+ORM Lazy Loading
+CAP Theorem
+Eventual Consistency
+Strong Consistency
+Raft Consensus
+Leader Election
+Split Brain
+Quorums
+Clock Skew
+Distributed Locks
+Consistent Hashing
+Bloom Filters
+Two-Phase Commit
+CQRS
+Event Sourcing
+Race Conditions
+Backpressure
+Load Shedding
+Bulkheads
+Jitter
+Retry Storms
+Cascading Failures
+Thundering Herd
+Cache Invalidation
+Cache Hit Ratio
+TTLs
+Cache Warming
+Write-Through vs Write-Back
+Redis Eviction Policies
+CDNs
+Cache-Control Headers
+ETags
+Dead Letter Queues
+Poison Messages
+At-Least-Once Delivery
+Exactly-Once Semantics
+Message Ordering
+Kafka Consumer Groups
+Partition Keys
+Background Jobs
+Webhook Retries
+DNS
+DNS Propagation
+HTTP Status Codes
+HTTP Method Semantics
+Keep-Alive
+HTTP/2
+WebSockets
+Server-Sent Events
+Long Polling
+gRPC
+Protocol Buffers
+API Versioning
+OpenAPI Specs
+Backward Compatibility
+Request Size Limits
+Compression
+Latency vs Throughput
+Egress Fees
+VPCs
+Subnets
+NAT Gateways
+Firewalls
+Security Groups
+Service Mesh
+Ingress Controllers
+Health Checks
+Liveness vs Readiness Probes
+Graceful Shutdown
+Connection Draining
+Stateless Services
+Failover
+Multi-Region
+Availability Zones
+Single Points of Failure
+Disaster Recovery
+RTO & RPO
+SLAs
+SLOs
+Error Budgets
+Incident Response
+On-Call
+Runbooks
+Postmortems
+Chaos Engineering
+Graceful Degradation
+Autoscaling
+Horizontal vs Vertical Scaling
+Cold Starts
+Capacity Planning
+Load Testing
+Memory Leaks
+OOM Killer
+Structured Logging
+Log Levels
+Log Rotation
+Distributed Tracing
+OpenTelemetry
+Correlation IDs
+Metrics Cardinality
+p99 Latency
+Alert Fatigue
+Error Tracking
+Profiling
+Flame Graphs
+Infrastructure as Code
+Terraform State
+GitOps
+Blue-Green Deployments
+Canary Releases
+Rollbacks
+Feature Flags
+Environment Parity
+Staging Environments
+12-Factor Apps
+Multi-Stage Builds
+Non-Root Containers
+Image Scanning
+Resource Requests & Limits
+Pod Disruption Budgets
+Semantic Versioning
+Lockfiles
+Reproducible Builds
+Branch Protection
